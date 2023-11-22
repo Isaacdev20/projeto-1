@@ -1,0 +1,107 @@
+/* versao de mobile */
+
+@font-face {
+    font-family:'hanken';
+    src: url(../fonts/HankenGrotesk-VariableFont_wght.ttf) format(truetype);
+}
+
+@media screen and (max-width: 768px) and (min-width:500px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'hanken';
+        
+    }
+    /*cabeçalho */
+    header{
+        background-image: linear-gradient(#B000E0 ,#772E8B);
+        color: white;
+        padding: 30px;
+        border-radius: 0px 0px 35px 35px;
+    }
+    header > h1{
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .opacidade{
+        color: rgba(255, 255, 255, 0.637);
+    }
+    header > p{
+        text-align: center;
+    }
+    header > div#circle{
+        text-align: center;
+        background-image: linear-gradient(#772E8B,#af00e086);
+        width: auto;
+
+    }
+    div > p#resultado{
+        font-size: 85px;
+    }
+    /*main */
+    main > h1{
+        padding: 20px;
+        font-size: 1.5em;
+    }
+    
+    /*item 1 */
+
+    main > div#item1{
+        background-color: rgba(255, 0, 0, 0.151);
+        display: flex;
+        border-radius: 25px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 100px
+    }
+    div > p#materia1{
+        padding: 10px;
+        color: rgba(255, 0, 0, 0.61);
+        font-weight: bolder;
+    }
+    div >img#img1{
+        padding: 10px;
+    }
+    div > p#resul1{
+        padding: 10px 0px 10px 100px;
+        color: black;
+        font-weight: bolder;
+        
+    }
+    div > p#resulc{
+        padding-bottom: 10px;
+        padding-top:10px ;
+        padding-left: 0px;
+        color: rgba(0, 0, 0, 0.521);
+        font-weight: bolder;   
+    }
+
+    /*item 2*/
+
+    div#item2{
+        background-color: rgba(255, 255, 0, 0.100);
+        display: flex;
+        border-radius: 25px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 100px
+    }
+    div > img#img2{
+        padding: 10px;
+    }
+    div > p#materia2{
+        padding: 10px;
+        color: #e0b463;
+        font-weight: bolder;
+    }
+    div > p#resul2{
+        padding: 10px 0px 10px 87px;
+        color: black;
+        font-weight: bolder;
+        
+    }
+
+}
