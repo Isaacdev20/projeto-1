@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'hanken';
-    src: url(../fonts/HankenGrotesk-VariableFont_wght.ttf);
+    src: url(../fonts/HankenGrotesk-VariableFont_wght.ttf)
     format(truetype);
 
 }
@@ -54,6 +54,4 @@
     }
 
     /* main */
-    #caixa{
-    
 }
