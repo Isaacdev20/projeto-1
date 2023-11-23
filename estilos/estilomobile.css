@@ -67,6 +67,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 100px;
+        width: 380px;
         
     }
     div > p#materia1{
@@ -93,7 +94,8 @@
         margin-left: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-right: 100px
+        margin-right: 100px;
+        width: 380px;
     }
     div > img#img2{
         padding: 10px;
@@ -119,7 +121,8 @@
         margin-left: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-right: 100px
+        margin-right: 100px;
+        width: 380px;
     }
     div > img#img3{
         padding: 10px;
@@ -144,7 +147,8 @@
         margin-left: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-right: 100px
+        margin-right: 100px;
+        width: 380px;
     }
     div > img#img4{
         padding: 10px;
@@ -172,16 +176,18 @@
 
     #botao{
         background-color:#533af6 ;
-        margin: auto;
         width: 250px;
         border-radius: 45px;
         cursor: pointer;
+        width: 250px;
+        margin: auto;
 
     }
     div > h1#cont{
         color: white;
         text-align: center;
         padding: 10px;
+        
     }
     div > h1#cont:hover{
         background-color: #303B59;
