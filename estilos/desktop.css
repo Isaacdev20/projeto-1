@@ -11,47 +11,22 @@
         margin: 0px;
         padding: 0;
     }
-
     header{
-        background-image: linear-gradient(#533af6 ,#533af6);
-        text-align: center;
-        padding: 30px;
-        width: 250px;
-        border-radius: 25px;  
-        display: block; 
+        background-color: red;
+        width: 400px;
+        height: 400px;
+        display:block ;
+    }
+    #caixa{
+        background-color: black;
+        width: 400px;
+        height: 400px;
+        color: white;
+        
+    }
+    footer{
+        background-color: green;
+        display: none;
     }
     
-    #circle{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.068));
-       
-    }
-
-    header > .opacidade {
-        color: rgba(255, 255, 255, 0.404);
-       
-    }
-    header > div#circle{
-        width: 150px;
-        margin: auto;
-        border-radius: 100%;
-    }
-    header > h1{
-        color: white;
-    }
-
-    #circle > p#resultado{
-        font-size: 75px;
-        padding-top: 10px;
-        color: white;
-        font-weight: bolder;
-    }
-
-    #circle > p#total {
-        font-size: 15px;
-        padding-bottom: 10px;
-        color: white;
-        font-weight: bolder;
-    }
-
-    /* main */
-}
+}   

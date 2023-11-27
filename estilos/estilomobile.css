@@ -171,6 +171,9 @@
         color: rgba(0, 0, 0, 0.521);
         font-weight: bolder;   
     }
+    div#botao2{
+        display: none;
+    }
 
     /* botao */
 
