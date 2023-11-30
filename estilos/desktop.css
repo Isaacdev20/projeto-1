@@ -5,7 +5,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width:992px){
+@media screen and (min-width: 600px) and (max-width:4000px){
     *{
         font-family: 'hanken';
         margin: 0px;
@@ -17,6 +17,7 @@
         display: flex;
         justify-content: center; 
         align-items: center;
+        background-image: linear-gradient(#533AF6,#F5DC3B);
     }
     header{
         width: 400px;
@@ -70,5 +71,136 @@
     }
 
     /* sumario */
-    main
+    main >h1 {
+        padding: 10px 0px 10px 25px;
+    }
+    
+    /*item 1 */
+    
+    div#item1 {
+        background-color: #ff000038;
+        margin: 10px 50px 10px 25px;
+        border-radius: 15px;
+        display: flex;
+        
+    }
+    
+    div#item1 > img#img1d{
+        padding: 10px 10px 10px 20px;
+    }
+
+    div#item1 > p#materia1{
+        padding: 10px 10px 10px 0px;
+        color: red;
+        font-weight: bolder;
+       
+    }
+    div#item1 > p#resul1{
+        padding: 10px 0px 10px 150px;
+        color: black;
+        font-weight: bolder;
+         
+    }
+    
+    /* item 2 */
+
+    #item2{
+        background-color: #ffb01e46;
+        margin: 10px 50px 10px 25px;
+        border-radius: 15px;
+        display: flex;
+    }
+    #item2 > img#img2d{
+        padding: 10px 10px 10px 20px;
+    }
+    #item2 > p#materia2{
+        padding: 10px 10px 10px 0px;
+        color: #FFB21E;
+        font-weight: bolder;
+    }
+    #item2 > p#resul2{
+        padding: 10px 0px 10px 140px;
+        color: black;
+        font-weight: bolder;
+ 
+    }
+
+    /* item3 */
+    #item3{
+        background-color: #00bb8f46;
+        margin: 10px 50px 10px 25px;
+        border-radius: 15px;
+        display: flex;
+    }
+    #item3 > img#img3d{
+        padding: 10px 10px 10px 20px;
+    }
+    #item3 > p#materia3{
+        padding: 10px 10px 10px 0px;
+        color: #00BB8F;
+        font-weight: bolder;
+    }
+    #item3 > p#resul3{
+        padding: 10px 0px 10px 156px;
+        color: black;
+        font-weight: bolder;
+    }
+
+    /* item 4 */
+    #item4{
+        background-color: #1125d646;
+        margin: 10px 50px 10px 25px;
+        border-radius: 15px;
+        display: flex;
+        
+    }
+    #item4 > img#img4d{
+        padding: 10px 10px 10px 20px;
+    }
+    #item4 > p#materia4{
+        padding: 10px 10px 10px 0px;
+        color: #1125D6;
+        font-weight: bolder;
+    }
+    #item4 > p#resul4{
+        padding: 10px 0px 10px 160px;
+        color: black;
+        font-weight: bolder;
+    }
+    .resulc{
+        padding: 10px 10px 10px 0px ;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    /* botao desktop */
+    #botaodesktop{
+        background-color:#533af6 ;
+        width: 250px;
+        border-radius: 45px;
+        cursor: pointer;
+        width: 325px; 
+        margin: 30px 50px 10px 25px;
+        text-align: center;
+    }
+    #botaodesktop > h1#cont{
+        color: white;
+    }
+    #botaodesktop > h1#cont:hover{
+        background-color: #303B59;
+        border-radius: 45px;
+    }
+
+    /*exclusoes desktop */
+    div#item1 > img#img1{
+        display: none;
+    }
+    div#item2 > img#img2{
+        display: none;
+    }
+    div#item3 > img#img3{
+        display: none;
+    }
+    div#item4 > img#img4{
+        display: none;
+    }
 }   
